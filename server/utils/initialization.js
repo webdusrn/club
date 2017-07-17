@@ -8,7 +8,7 @@ var errorHandler = require('sg-sequelize-error-handler');
 
 module.exports = {
     defaultDomainRenders: [{
-        domain: "localhost:10002",
+        domain: "localhost:" + config.app.port,
         render: "main",
         language: "ko",
         country: "kr"

@@ -6,7 +6,7 @@ import MainCtrl from './controllers/app.main.controller';
 
 const APP_NAME = "app.main";
 
-angular.module(APP_NAME, ['app.main-core'])
+angular.module(APP_NAME, ['app.main-core', 'app.main.template'])
     .config(config)
     .config(routing)
     .controller("MainCtrl", MainCtrl);
